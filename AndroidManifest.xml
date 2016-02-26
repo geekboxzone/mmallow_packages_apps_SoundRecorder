@@ -15,11 +15,12 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.soundrecorder">
+    package="com.android.soundrecorder"
+    android:sharedUserId="android.uid.system">
 
     <original-package android:name="com.android.soundrecorder" />
 
-    <uses-sdk android:targetSdkVersion="22" />
+    <uses-sdk android:targetSdkVersion="23" />
 
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.INTERNET" />
